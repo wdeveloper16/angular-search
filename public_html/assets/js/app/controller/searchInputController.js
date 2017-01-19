@@ -45,6 +45,7 @@ app.controller('searchInputController', function ($scope, $state, Results, $time
 					'tab': 'web'
 				});
 			}
+			$('#q').blur();
 		};
 	}
 )
